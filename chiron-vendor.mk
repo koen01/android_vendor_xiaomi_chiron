@@ -40,7 +40,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/etc/firmware/tas2559_s_uCDSP.bin:system/etc/firmware/tas2559_s_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/etc/firmware/tas2559_uCDSP.bin:system/etc/firmware/tas2559_uCDSP.bin \
     vendor/xiaomi/chiron/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/xiaomi/chiron/proprietary/lib/sensors.hal.tof.so:system/lib/sensors.hal.tof.so \
     vendor/xiaomi/chiron/proprietary/lib64/libnotifyaudiohal.so:system/lib64/libnotifyaudiohal.so \
+    vendor/xiaomi/chiron/proprietary/lib64/sensors.hal.tof.so:system/lib64/sensors.hal.tof.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:system/vendor/lib/libSonyIMX386PdafLibrary.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so:system/vendor/lib/libactuator_chiron_imx386_ak7372_semco.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libchromatix_chiron_imx386_semco_4K_preview.so:system/vendor/lib/libchromatix_chiron_imx386_semco_4K_preview.so \
@@ -134,6 +136,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_primax_eeprom.so:system/vendor/lib/libmmcamera_chiron_ov5675_primax_eeprom.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech.so:system/vendor/lib/libmmcamera_chiron_ov5675_qtech.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so:system/vendor/lib/libmmcamera_chiron_ov5675_qtech_eeprom.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
+    vendor/xiaomi/chiron/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/chiron/proprietary/vendor/lib64/sensors.elliptic.so:system/vendor/lib64/sensors.elliptic.so
 
 PRODUCT_PACKAGES += \
